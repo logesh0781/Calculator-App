@@ -76,3 +76,73 @@ button:active{
     background: #2ecc71;
     color: white;
 }
+
+/* Mobile */
+@media(max-width:480px){
+    body{
+        padding: 10px;
+    }
+
+    .calc{
+        max-width: 100%;
+        padding: 15px;
+        border-radius:16px;
+    }
+
+    #calc-dis{
+        height: 70px;
+        margin-bottom: 12px;
+    }
+
+    .calc-btn{
+        gap: 8px;
+    }
+
+    button{
+        height: 62px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
+
+/* Very Small Phone */
+@media(max-width:350px){
+    .calc{
+        padding: 10px;
+    }
+
+    .calc-btn{
+        gap: 6px;
+    }
+
+    button{
+        height: 55px;
+        font-size: 18px;
+    }
+
+    #calc-dis{
+        height: 60px;
+        font-size: 26px;
+    }
+}
+
+/* Landscape Mobile */
+@media(max-height:500px) and (orientation: landscape){
+    body{
+        align-items: flex-start;
+    }
+
+    .calc{
+        margin: 10px;
+        max-width: 500px;
+    }
+
+    #calc-dis{
+        height: 55px;
+        margin-bottom: 8px;
+    }
+
+    button{
+        height: 45px;
+    }
+}
