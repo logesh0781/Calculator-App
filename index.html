@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></head>
+    <title>CALCULATOR APP</title>
+</head>
+<body>
+    <div class="calc">
+        <input type="text" id="calc-dis" readonly>
+
+        <div class="calc-btn">
+            <button class="clear" onclick="clearDisplay()">
+                C
+            </button>
+            <button  onclick="deleteLast()">
+               D 
+            </button>
+            <button onclick="percentage()">
+                %
+            </button>
+            <button class="op" onclick="add('/')">
+                /
+            </button>
+            <button onclick="add('7')">
+                7
+            </button>
+            <button onclick="add('8')">
+                8
+            </button>
+            <button onclick="add('9')">
+                9
+            </button>
+            <button class="op" onclick="add('*')">x</button>
+            <button onclick="add('4')">
+                4
+            </button>
+            <button onclick="add('5')">
+                5
+            </button>
+            <button onclick="add('6')">
+                6
+            </button>
+            <button class="op" onclick="add('-')">
+                -
+            </button>
+            <button onclick="add('1')">
+                1
+            </button>
+            <button onclick="add('2')">
+                2
+            </button>
+            <button onclick="add('3')">
+                3
+            </button>
+            <button id="add" class="op" onclick="add('+')">
+                +
+            </button>
+            <button id="two-box" onclick="add('0')">
+                0
+            </button>
+            <button onclick="add('.')">
+                .
+            </button>
+            <button class="equal" onclick="calculate()">
+                =
+            </button>
+        </div>
+    </div>
+</body>
+</html>
