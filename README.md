@@ -14,6 +14,7 @@ The calculator supports basic arithmetic operations, keyboard input, percentage 
 - 🔢 Decimal numbers
 - ⌫ Delete last character
 - 🧹 Clear display
+- ⌨️ Keyboard control
 - 📱 Responsive mobile design
 - 💻 Works on desktop and mobile browsers
 
