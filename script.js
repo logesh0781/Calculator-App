@@ -26,3 +26,18 @@ function calculate(){
         display.value="ERROR";
     }
 }
+
+document.addEventListener("keydown", function(event){
+    if(!isNaN(event.key) || ['+','-','*','/','.'].includes(event.key)){
+        add(event.key);
+    }
+    else if(event.key==="Enter" || event.key==="="){
+        calculate();
+    }
+    else if(event.key==="Backspace"){
+        deleteLast();
+    }
+    else if(event.key==="Escape" || event.key==="Delete"){
+        clearDisplay();
+    }
+})
